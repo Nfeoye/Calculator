@@ -1,21 +1,25 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: "Inter", sans-serif;
 }
 body{
-    max-width: 480px;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 600px;
+    height: 500px;
 }
 .container{
-    max-width: 420px;
-    height: 700px;
-    background-color: #4c5e5e;
+    max-width: 480px;
+    margin-top: 30px;
+    height: 500px;
+    background-color: #c26c49;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+p{
+    color: #d8e3dd;
 }
 .title{
     text-align: center;
@@ -23,27 +27,41 @@ body{
     padding: 25px;
 }
 .form-section{
-    height: 400px;
-    margin-top: 20px;
+    height: 370px;
+    margin-top: px;
+    background-color: #bd8869;
+    border-radius: 8px;
+}
+form{
+    margin-left: 25px;
+    padding-top: 20px;
 }
 input{
-    
     border-style: none;
-    
     border-radius: 5px;
     height:40px;
     width: 300px;
-    color: white;
-    margin-top: 5px;
+    color: black;
+    margin: 8px;
+
     font-size: larger;
     padding-left: 8px;
 }
-
+.name{
+    margin-left: 8px;
+}
 button{
-    width: 300px;
+    width: 220px;
     border-style: none;
     height: 40px;
     border-radius: 5px;
-    margin-top: 30px;
-    background-color: ;
+    margin-top: 20px;
+    margin-left: 105px;
+    background-color: #e8c3a8;
+    color: #443636;
+    font-size: larger;
+}
+#total{
+    margin-top: 15px;    
+    margin-left: 8px;
 }
