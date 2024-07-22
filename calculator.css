@@ -6,21 +6,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    max-width: 480px;
-    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #3d4e4e;
 }
 .container{
-    max-width: 420px;
-    height: 700px;
-    background-color: #4c5e5e;
+    margin: 10% auto;
+    max-width: 480px;
+    background-color: hsl(7, 82%, 20%);
+    box-shadow: -1px -5px 20px hsla(10, 34%, 51%, 0.5); 
+    border-radius: 10px;
 }
 .title{
     text-align: center;
-    font-size: 40px;
-    padding: 25px;
+    /* font-size: 35px; */
+    padding-top: 40px;
 }
 .form-section{
     height: 400px;
@@ -45,5 +46,5 @@ button{
     height: 40px;
     border-radius: 5px;
     margin-top: 30px;
-    background-color: ;
+    
 }
