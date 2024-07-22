@@ -1,50 +1,83 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #3d4e4e;
 }
-.container{
+
+.container {
     margin: 10% auto;
     max-width: 480px;
     background-color: hsl(7, 82%, 20%);
-    box-shadow: -1px -5px 20px hsla(10, 34%, 51%, 0.5); 
+    box-shadow: -1px -5px 20px hsla(10, 34%, 51%, 0.5);
     border-radius: 10px;
 }
-.title{
+
+.title {
     text-align: center;
     /* font-size: 35px; */
     padding-top: 40px;
 }
-.form-section{
-    height: 400px;
+
+.form-section {
+    /* height: 400px; */
     margin-top: 20px;
 }
-input{
-    
-    border-style: none;
-    
-    border-radius: 5px;
-    height:40px;
-    width: 300px;
-    color: white;
-    margin-top: 5px;
-    font-size: larger;
-    padding-left: 8px;
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
 }
 
-button{
+input {
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    color: #eb4b35;
+    /* margin-top: 5px; */
+    /* font-size: larger; */
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #e7e7e7;
+}
+
+p {
+    margin: 20px 0 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+button {
     width: 300px;
     border-style: none;
     height: 40px;
     border-radius: 5px;
-    margin-top: 30px;
-    
+    margin-top: 20px;
+    color: #e7e7e7;
+    background-color: #eb4b35;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(30, 87%, 40%);
+    color: white;
 }
