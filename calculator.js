@@ -1,13 +1,13 @@
 
 function calculate(){
-    const principalInput = document.getElementById('principal')
-    const rateInput = document.getElementById('rate')
-    const timeInput = document.getElementById('time')
-    const interestOutput = document.getElementById ('total-interest')
-    let principal = principalInput.value
-    let rate  = rateInput.value/100
-    let time = timeInput.value
-    const result =  principal*rate*time
-    interestOutput.textContent = result.toLocaleString(undefined,)
+    const principal = document.getElementById('principal')
+    const rate = document.getElementById('rate')
+    const time = document.getElementById('time')
+    const interest = document.getElementById ('total-interest')
+    let p = principal.value
+    let r  = rate.value
+    let t = time.value
+    const result =  (p*r*t)/100
+    interest.textContent = result.toLocaleString(undefined)
 }   
 
