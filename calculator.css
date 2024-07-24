@@ -20,11 +20,12 @@ body {
     background-color: hsl(7, 82%, 20%);
     box-shadow: -1px -5px 20px hsla(10, 34%, 51%, 0.5);
     border-radius: 10px;
-
+}
 .title {
     text-align: center;
-    /* font-size: 35px; */
+    font-size: 35px;
     padding-top: 40px;
+    color: white;
 }
 
 .form-section {
@@ -62,26 +63,31 @@ p {
 label {
     font-weight: 500;
     font-size: 18px;
+    color: white;
 }
 
 button {
     width: 300px;
-
+    background-color:rgb(254, 180, 43) ;
     border-style: none;
     height: 40px;
     border-radius: 5px;
     margin-top: 20px;
+    font-size: larger;
+}
 
 
 button:hover {
-    background-color: hsl(30, 87%, 40%);
+    background-color: #eb4b35;
     color: white;
-    margin-left: 105px;
-    background-color: #e8c3a8;
-    color: #443636;
     font-size: larger;
+    transition: 0.5s;
 }
 #total{
     margin-top: 15px;    
     margin-left: 8px;
+    color: white;
+}
+span{
+    color: rgb(6, 246, 6);
 }
